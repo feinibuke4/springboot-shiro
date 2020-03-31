@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>测试thymleaf的使用</title>
+</head>
+<body>
+<h3 th:text="${name}"></h3><br>
+<div shiro:hasPermission="user:add">
+<span><a href="toAdd">add</a></span>
+<br></div>
+<div shiro:hasPermission="user:updata">
+<span><a href="toUpdata">updata</a></span>
+</div>
+</body>
+</html>
